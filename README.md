@@ -25,6 +25,7 @@
 在bin目录下
 ./zkCli.sh   
 ![6](src/main/resources/static/6.png)
+
 ok , zookeeper的单机版已经部署成功了
 
 ## (二)kafka
