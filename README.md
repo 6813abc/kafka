@@ -20,9 +20,10 @@
 在bin目录下
 ./zkServer.sh start  
 ![5](src/main/resources/static/5.png)
+
 可以测试一下是否启动成功
 在bin目录下
-./zkCli.sh  
+./zkCli.sh   
 ![6](src/main/resources/static/6.png)
 ok , zookeeper的单机版已经部署成功了
 
@@ -50,18 +51,18 @@ ok , zookeeper的单机版已经部署成功了
 ### 5.查看topic
 
 在bin目录下
-./kafka-topics.sh --list --zookeeper localhost:2181
+./kafka-topics.sh --list --zookeeper localhost:2181  
 ![10](src/main/resources/static/10.png)
 
 ### 6.产生消息，创建消息生产者
 
 在bin目录下
-./kafka-console-producer.sh --broker-list localhost:9092 --topic test
+./kafka-console-producer.sh --broker-list localhost:9092 --topic test  
 ![11](src/main/resources/static/11.png)
 
 ### 7.消费消息，创建消息消费者,在生产者中发送的消息都会出现在消费者中
 在bin目录下
-./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
+./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning  
 ![12](src/main/resources/static/12.png)
 
 这样本机的kafka环境就搭建好了
