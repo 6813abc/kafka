@@ -1,0 +1,12 @@
+server:
+  port: 8099
+
+#kafka相关配置
+spring:
+  kafka:
+    bootstrap-servers: 127.0.0.1:9092
+    consumer:
+      group-id: 0
+    producer:
+      batch-size: 65536
+      buffer-memory: 524288
