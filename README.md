@@ -3,7 +3,7 @@
 ## (一)zookeeper
 
 ### 1.下载zookeeper
-下载地址: http://apache.fayea.com/zookeeper/
+下载地址: http://apache.fayea.com/zookeeper/  
 我用的3.4.10版本的  
 ![1](src/main/resources/static/1.png)
 
