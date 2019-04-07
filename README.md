@@ -11,17 +11,18 @@
 ![2](src/main/resources/static/2.png)
 
 ### 3.配置zookeeper
-进入 conf文件夹下,有一个zoo_sample.cfg文件,这是一个简单的配置例子,我们需要将它改名为 zoo.cfg,我是复制重命名的,并且把带#的注释去了＜/br＞ 
+进入 conf文件夹下,有一个zoo_sample.cfg文件,这是一个简单的配置例子,我们需要将它改名为 zoo.cfg,我是复制重命名的,并且把带#的注释去了  
+
 ![3](src/main/resources/static/3.png)
 ![4](src/main/resources/static/4.png)
 
 ### 4.启动zookeeper
 在bin目录下
-./zkServer.sh start＜/br＞
+./zkServer.sh start  
 ![5](src/main/resources/static/5.png)
 可以测试一下是否启动成功
 在bin目录下
-./zkCli.sh
+./zkCli.sh  
 ![6](src/main/resources/static/6.png)
 ok , zookeeper的单机版已经部署成功了
 
@@ -33,13 +34,13 @@ ok , zookeeper的单机版已经部署成功了
 
 ### 2.解压kafka
 
-解压后的根目录结构如下
+解压后的根目录结构如下  
 ![8](src/main/resources/static/8.png)
 
 ### 3.启动kafka服务
 
 在bin目录下,启动,指定根目录config下的配置文件,不要关闭该终端
-./kafka-server-start.sh ../config/server.properties
+./kafka-server-start.sh ../config/server.properties  
 ![9](src/main/resources/static/9.png)
 
 ### 4.创建topic
