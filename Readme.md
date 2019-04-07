@@ -1,6 +1,7 @@
 ### ubuntu安装配置zookeeper和kafka
 
 ## (一)zookeeper
+
 # 1.下载zookeeper
 下载地址: http://apache.fayea.com/zookeeper/
 我用的3.4.10版本的
@@ -20,6 +21,7 @@
 ok , zookeeper的单机版已经部署成功了
 
 ## (二)kafka
+
 # 1.下载kafka
 下载地址:http://apache.fayea.com/kafka/2.1.0/
 
