@@ -8,7 +8,7 @@
 ![1](src/main/resources/static/1.png)
 ### 2.解压zookeeper
 解压后的目录结构
-
+![2](src/main/resources/static/2.png)
 ### 3.配置zookeeper
 进入 conf文件夹下,有一个zoo_sample.cfg文件,这是一个简单的配置例子,我们需要将它改名为 zoo.cfg,我是复制重命名的,并且把带#的注释去了
 
